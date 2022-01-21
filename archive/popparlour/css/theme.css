@@ -1,0 +1,95 @@
+/** SWAP 86 CUSTOM THEME **/
+
+.homehead {
+ 	background-image: url(../images/bg-desktop2.jpg); 
+/* 	background-image: url(../images/retrowave.jpg); */
+
+	background-repeat: no-repeat;
+  background-size: cover;
+	min-height: 100vh;
+}
+h1 {font-family: 'Comfortaa', cursive; color: #fff!important;}
+.homehead p {color: #fff}
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: transparent;
+}
+.navbar {background: rgb(255, 255, 255); padding-bottom: 12px; padding-top: 6px;}
+.jumbotron {
+	margin-top: 15vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: transparent;
+/*	-webkit-border-bottom-right-radius: 200px;
+-webkit-border-bottom-left-radius: 200px;
+border-bottom-right-radius: 200px;
+border-bottom-left-radius: 200px;
+background-color: rgba(255, 255, 255, 0.8);
+*/
+
+}
+.navbar-brand {
+    float: left;
+    height: auto;
+    padding: 0;
+    font-size: 18px;
+    line-height: 20px;
+	padding-left: 20px
+}
+.navbar-brand img { max-width: 120px; margin-top: 10px; }
+
+nav .fa-bars {    
+font-size: 36px;
+    color: #ff2153;
+}
+
+footer {
+	position: absolute;
+	
+	bottom:0;
+	
+}
+.btn-swapaction {
+    color: #fff;
+    background-color: #ff2153;
+    border-color: #fff;
+}
+
+.pull-right-nav {float: right}
+.sortwrap {
+	
+	margin: 0 auto;
+    left: 0;
+    right: 0;
+    max-width: 115px;
+    text-align: center;
+    border: 1px dotted white;
+    height: 51px;
+    color: #fff;
+	
+}
+.sortwrap .dropdown {position: relative!important; width: 100%; max-width: 300px; display:block!important}
+.sortwrap .navbar-nav {width: 100%;}
+.sortwrap .dropdown-toggle{color: #fff!important; background: transparent}
+.sortwrap .dropdown-toggle:hover{color: #fff!important; background: transparent}
+.sortswap .dropdown-menu {    background-color: #16bcd2!important;}
+
+.productblock {
+	border: 1px dotted white;
+    background: white;
+    color: #337ab7;
+    padding: 20px;
+    margin: 12px;
+	}
+.productblock p  { color: #337ab7;}
+.productblock h2 {font-size: 24px;
+    color: #337ab7; }
+	.productblock img {max-width: 100%; margin-bottom: 15px;}
+
+@media (max-width: 767px) {
+	
+	 .pull-right-nav { float:left!important  }
+}

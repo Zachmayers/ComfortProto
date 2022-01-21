@@ -1,0 +1,273 @@
+/* SBC CUSTOM CSS  */
+
+body {
+	overflow-x: hidden;	
+/*     background-color: #86080b; */
+    color: #fff;
+}
+
+/*
+.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+*/
+
+.white {
+    background-color: white;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+p {
+    color: #fff;
+}
+
+h3 {
+	font-weight: 300;
+}
+
+.top-section {
+	padding-top: 0px;
+	width:100%; 
+	background:url('images/main-desktop-bg-bartender.jpg') no-repeat center center; 
+	background-size: cover;
+}
+
+.bottom-section {
+	width:100%; 
+	background:url('images/main-desktop-bg-server.jpg') no-repeat center center; 
+	background-size: cover;
+}
+
+/*
+.page-header {
+    padding-bottom: 9px; 
+	margin: 40px 0px 20px 0px; 
+    border-bottom: 0px; 
+}
+
+.page-header img {
+    max-width: 571px;
+    width: 100%;
+}
+*/
+
+.free {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 24px;
+}
+.row-margin {
+/*     margin-top: 45px */
+     margin-top: 30px 
+}
+
+.spacer {
+    margin-top: 25px
+}
+
+ .spacer-jobs {
+    margin-top: 25px
+}
+
+ .spacer75 {
+    margin-top: 75px
+}
+
+ .spacer100 {
+    margin-top: 120px
+}
+
+ .middle-spacer {
+    margin-top: 50px;
+    margin-bottom: 50px    
+}
+
+
+
+.tile {
+/* 	background-image:url('../images/bg.png'); */
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	min-height: 200px;
+}
+
+.text-box {
+	background: rgb(142, 8, 11); /* Fall-back for browsers that don't support rgba */
+    background: rgba(142, 8, 11, .7);	
+	
+/*
+    background-color: #8e080b;
+	opacity: 0.7;
+    filter: alpha(opacity=70);	
+*/
+}
+
+
+.btn-default {
+    color: #fff;
+    background-color: transparent;
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    border: 3px solid white;
+	border-radius: 8px;
+/*
+	-moz-box-shadow:    2px 2px 2px 2px #751416;
+  -webkit-box-shadow: 2px 2px 2px 2px #751416;
+  box-shadow:         2px 2px 2px 2px #751416;
+*/
+}
+.btn-default:hover {
+    border: 3px solid #401000;
+    background-color: transparent;
+    color: #fff;
+}
+
+.btn-small {
+    color: #fff;
+    background-color: transparent;
+    font-size: 22px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    border: 2px solid white;
+	border-radius: 8px;
+	-moz-box-shadow:    2px 2px 2px 2px #751416;
+  -webkit-box-shadow: 2px 2px 2px 2px #751416;
+  box-shadow:         2px 2px 2px 2px #751416;
+  margin-top:10px;
+}
+
+.btn-square {
+    color: #fff;
+    background-color: transparent;
+    font-size: 16px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    border: 1px solid white;
+	border-radius: 2px;
+	-moz-box-shadow:    2px 2px 2px 2px #751416;
+  -webkit-box-shadow: 2px 2px 2px 2px #751416;
+  box-shadow:         2px 2px 2px 2px #751416;
+  margin-top:10px;
+}
+
+.homelinks a {
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 10px;
+}
+.homelinks .fa {
+    font-size: 22px;
+}
+
+.tagline {
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.description {
+	font-size: 16px;	
+}
+
+@media (max-width: 767px) {
+
+body {
+	overflow-x: hidden;	 
+    color: #fff;
+}
+
+/*
+.container-fluid {
+	overflow-x: hidden;	 
+	
+ 	padding-right:0px;
+    padding-left:0px;
+    margin-right:auto;
+    margin-left:auto
+    }
+*/
+	
+	
+.top-section {
+	width:100%; 
+	min-height: 730px;
+	background:url('images/main-mobile-bg-bartender.jpg') no-repeat center center; 
+	background-size: cover;
+}
+
+.bottom-section {
+	width:100%; 
+	background:url('images/main-mobile-bg-server.jpg') no-repeat center center; 
+	background-size: cover;
+}
+
+ .middle-spacer {
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+	
+    .row-margin {
+        margin-top: 10px
+    }
+    
+    .free {
+        font-size: 22px;
+    }
+    .homelinks a {
+        color: #fff;
+        font-size: 20px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        margin: 10px;
+    }
+    .btn {
+        margin: 15px;
+    }
+    
+ .spacer {
+    margin-top: 0px
+}
+
+ .spacer-jobs {
+    margin-top: 25px
+}
+
+
+ .spacer75 {
+    margin-top: 60px
+}
+
+ .spacer100 {
+    margin-top: 65px
+}
+
+   
+.description {
+	float:left;
+	font-size: 16px;	
+}
+
+.extra {
+	float:left;
+	margin-bottom: 40px;
+	margin-right:5px;
+	margin-left:10px
+}
+
+.extra-right {
+	float:left;
+	margin-bottom: 40px;
+	margin-right:10px;
+	margin-left:5px
+}
+    
+}
+
+

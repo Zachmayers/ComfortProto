@@ -1,0 +1,7 @@
+User-agent: * 
+Disallow: /ajax/
+Disallow: /admin/
+Disallow: /classes/
+Disallow: /dialogue/
+
+Sitemap: http://servebartendcook.com/sitemap.xml

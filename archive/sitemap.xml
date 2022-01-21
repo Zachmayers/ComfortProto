@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>https://servebartendcook.com/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://servebartendcook.com/index.php?page=employee_signup</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://servebartendcook.com/index.php?page=employer_signup</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://servebartendcook.com/index.php?page=login</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://servebartendcook.com/jobs.php</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://servebartendcook.com/index.php?page=job_seeker_faq</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://servebartendcook.com/index.php?page=employer_faq</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://servebartendcook.com/index.php?page=TOS</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.3</priority>
+</url>
+<url>
+  <loc>https://servebartendcook.com/index.php?page=privacy_policy</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.3</priority>
+</url>
+</urlset>
