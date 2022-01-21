@@ -263,15 +263,15 @@ function index_provider_signup_html() {
 		        	</label>
 				</div>
 
-			        <input type="text" id="firstname" <? echo $first_name ?> placeholder='First Name' size='16' maxlength="16" style="margin:auto;"><br />
+			        <input type="text" id="firstname" placeholder='First Name' size='16' maxlength="16" style="margin:auto;"><br />
 	
-			        <input type="text" id="lastname" <? echo $last_name ?> placeholder='Last Name' size='16'  maxlength="16" style="margin:auto;"><br />
+			        <input type="text" id="lastname"  placeholder='Last Name' size='16'  maxlength="16" style="margin:auto;"><br />
 	
 			        <input type="text" id="zip" name="region" placeholder='Region' size='16' maxlength="20" style="margin:auto;"><br />
 			        
 			        <input type="text" id="phone" name="phone" placeholder='Phone' size='16' maxlength="10" style="margin:auto;"><br />
 	
-			        <input type="text" id="login_email" <? echo $email ?> placeholder='Email Address' size='16' maxlength="100" style="margin:auto;"><br />
+			        <input type="text" id="login_email"  placeholder='Email Address' size='16' maxlength="100" style="margin:auto;"><br />
 	
 			        <input type="password" id="set_password" name="password" placeholder='Select a Password' size='16'  maxlength="12" style="margin:auto;"><br />
 	
@@ -403,7 +403,7 @@ function index_login_html($email) {
 		        	<td  style='padding-bottom:15px; color:black;' align="center">EMAIL</td>
 				</tr>
 				<tr>
-		        	<td  style='padding-bottom:15px; padding-left:7px;' valign="top"><input type="text" id="user_login" size="16" value="<? echo $email ?>" /></td>	        
+		        	<td  style='padding-bottom:15px; padding-left:7px;' valign="top"><input type="text" id="user_login" size="16"  /></td>	        
 		      	</tr>
 			  	<tr>
 		      	  	<td style='padding-bottom:15px; color:black' align="center">PASSWORD</td>

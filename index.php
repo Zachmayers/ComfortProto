@@ -32,14 +32,14 @@
 	
 
 
-/*
-	//check to see if cookie is set
-	if (isset($_COOKIE['hash'])) {
-		$email = $utilities->get_email($_COOKIE['hash']);
-	} else {
-		$email = "";
-	}
-*/
+// /*
+// 	//check to see if cookie is set
+// 	if (isset($_COOKIE['hash'])) {
+// 		$email = $utilities->get_email($_COOKIE['hash']);
+// 	} else {
+// 		$email = "";
+// 	}
+// */
 
 	$page = $_GET['page'];
 	$meta_data = $utilities->get_meta_data($page);

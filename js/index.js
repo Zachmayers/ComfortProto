@@ -786,24 +786,25 @@ function change_password(ID, token) {
 
 
 function mysql_test() {
+	console.log("mysql test")
 		dataString = "step=test";
 				$.ajax({
 					type: "POST",
 					url: "ajax/verification.ajax.php?type=mysql_test",
 					data: dataString,
 					success: function(data) {
-						//alert(data);
+						// alert(data);
 						if (data != "1") {
 							$("#server_warning").show();	
 							//send email to admin	
 							dataString = "step=email";		
-							//alert(dataString);												
+							// alert(dataString);												
 								$.ajax({
 									type: "POST",
 									url: "ajax/verification.ajax.php?type=mysql_test",
 									data: dataString,
 									success: function(data) {
-										//alert(data);
+										// alert(data);
 									}
 								});	
 						} 																

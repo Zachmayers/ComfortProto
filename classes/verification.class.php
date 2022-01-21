@@ -2,7 +2,7 @@
 require_once('mysqldb.class.php');	
 require_once('utilities.class.php');	
 require_once('member.class.php');
-require_once('message.class.php');
+
 
 class Verification {
 		

@@ -4,9 +4,9 @@
 //==================================
 
 //CHANGE FOR LIVE SITE
-	require_once($_SERVER['DOCUMENT_ROOT'].'/loneme_proto/classes/message.class.php');
-	require_once($_SERVER['DOCUMENT_ROOT'].'/loneme_proto/classes/verification.class.php');
-	require_once($_SERVER['DOCUMENT_ROOT'].'/loneme_proto/classes/utilities.class.php');		
+
+	require_once($_SERVER['DOCUMENT_ROOT'].'/classes/verification.class.php');
+	require_once($_SERVER['DOCUMENT_ROOT'].'/classes/utilities.class.php');		
 
 
 	$utilities = new Utilities;
