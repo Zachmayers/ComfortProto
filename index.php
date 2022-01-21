@@ -4,7 +4,7 @@
 	
 //Required HTML files
 	require_once('html/index_html.php');	
-	require_once('html/index_docs_html.php');	
+
 
 	require_once('html/general_content_html.php');
 
